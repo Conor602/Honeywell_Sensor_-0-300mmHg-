@@ -40,8 +40,8 @@ private:
     // Calibration parameters based on datasheet Figure 4
     const double _max_mmHg = 300;       // Maximum Pressure in mmHg (From datasheet, depends on sensor type)
     const double _min_mmHg = 0.0;        // Minimum Pressure in PSI (From datasheet, depends on sensor type)
-    const uint32_t _max_cnt = 15099494; // Max count (From datasheet)
-    const uint32_t _min_cnt = 1677722;  // Min count (From datasheet)
+    const uint32_t _max_cnt = 3774873; // Max count (From datasheet)
+    const uint32_t _min_cnt  = 419431;  // Min count (From datasheet)
     const int SPI_CLOCK_SPEED = 800000; // SPI clock speed (From datasheet)
 };
 
