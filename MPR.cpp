@@ -98,5 +98,5 @@ void MPR::connectToSensor()
 /* Convert from raw 24-bit value from sensor to the PSI reading (datasheet section 8) */
 double MPR::transferFunction(uint32_t raw_value)
 {
-    return (((raw_value - _min_cnt) * (_max_psi - _min_psi)) / (_max_cnt - _min_cnt)) + _min_psi;
+    return (((raw_value - _min_cnt) * (_max_mmHg - _min_mmHg)) / (_max_cnt - _min_cnt)) + _min_mmHg;
 }
