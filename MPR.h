@@ -1,4 +1,6 @@
 /* 
+
+My sensor is 0-300mmHg  ,  [MPRLS0300YG0001BB]
         Arduino Library for Honeywell MPR Pressure Sensors
         
         Supports connecting multiple Honeywell MPR sensors to the same Serial bus using SPI.
